@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TrongNguyen Fancy Text</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f3f3f3;
+        padding: 20px;
+    }
+    .container {
+        max-width: 700px;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 8px;
+    }
+    .output-box {
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 8px;
+        background: #fafafa;
+        border: 1px solid #ddd;
+        cursor: pointer;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="container">
+    <h1>TrongNguyen Fancy Text Generator</h1>
+
+    <textarea id="inputText" rows="2" placeholder="Nhập chữ tại đây..."></textarea>
+
+    <div id="output"></div>
+</div>
+
+<script>
+const styles = {
+    bold: { a:"𝗮",b:"𝗯",c:"𝗰",d:"𝗱",e:"𝗲",f:"𝗳",g:"𝗴",h:"𝗵",i:"𝗶",j:"𝗷",k:"𝗸",l:"𝗹",m:"𝗺",n:"𝗻",o:"𝗼",p:"𝗽",q:"𝗾",r:"𝗿",s:"𝘀",t:"𝘁",u:"𝘂",v:"𝘃",w:"𝘄",x
